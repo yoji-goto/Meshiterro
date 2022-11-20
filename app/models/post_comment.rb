@@ -1,5 +1,6 @@
 class PostComment < ApplicationRecord
 
   belongs_to :user
-  belongs_to :profile_image
+  belongs_to :post_image
+
 end
